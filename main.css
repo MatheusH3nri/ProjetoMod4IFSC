@@ -1,0 +1,47 @@
+.root {
+  --color-background: #fafafa;
+  --color-text: #0e0e0f;
+  --color-header: #262626;
+  --color-card-border: #f1f1f1;
+
+  --color-primary: #202024;
+  --color-secondary: #6f4bc3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.link {
+  color: var(--color-background);
+  text-decoration: none;
+  background-color: none;
+  margin: 1%;
+  font-size: 20px;
+}
+
+h1{
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+#cart{
+  width: 1.5rem;
+}

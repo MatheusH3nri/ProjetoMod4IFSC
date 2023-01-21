@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rosa do Deserto</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="rosa.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="estoque.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="flex-container">
+      <nav>
+        <a href="produtosadmin.html" class="link">Produtos</a>
+        <div class="dropdown">
+          <a href="colaboradores.html"
+            ><button class="dropbtn">Colaboradores</button></a
+          >
+          <div class="dropdown-content">
+            <a href="cadastro.html">Cadastrar</a>
+            <a href="colaboradores.html">Vizualizar</a>
+          </div>
+        </div>
+        
+  
+        <a href="estoque.html" class="link">Estoque</a>
+      </nav>
+      <nav>
+        <div class="dropdown">
+          <a href="adm.html"
+            ><button class="dropbtn"><img src="neyney.png" id="logo2"
+        /></button></a
+          >
+          <div class="dropdown-content">
+            <a href="login.html">Sair</a>
+          </div>
+        </div>
+        <a href="indexadm.html"
+          ><img src="rosa.png" id="logo"
+        /></a>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="search">
+        <h1>Controle de Estoque</h1>
+        <input type="text" placeholder="Busca"/>
+        <button id="search-button" onclick="myFunction()">
+          <img src="lupa.png" id="search-ico" />
+        </button>
+        <a href="exemploadmedit.html" id="add"><img src="mais.png" id="plus"><h2>Adicionar Produto</h2></a>
+      </div>
+
+      <div class="card">
+        <div id="myDIV">
+        <table>
+          <tr>
+            <th>ID</th>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Valor</th>
+            <th id="editar">Editar</th>
+          </tr>
+          <tr>
+            <td>001</td>
+            <td>Golfinho Ponto G</td>
+            <td>30</td>
+            <td>R$ 99,99</td>
+            <td id="purple"><a href="exemploadmedit.html"><img src="notas.png" id="edit"></a></td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>Vibrador Silk Lady </td>
+            <td>34</td>
+            <td>R$ 109,99</td>
+            <td id="purple"><a href="exemploadmedit.html"><img src="notas.png" id="edit"></a></td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>Cápsula Vibratória Touch</td>
+            <td>50</td>
+            <td>R$ 159,99</td>
+            <td id="purple"><a href="exemploadmedit.html"><img src="notas.png" id="edit"></a></td>
+          </tr>
+          <tr>
+            <td>004</td>
+            <td>Sensivibe Rabbit</td>
+            <td>41</td>
+            <td>R$ 284,99</td>
+            <td id="purple"><a href="exemploadmedit.html"><img src="notas.png" id="edit"></a></td>
+          </tr>
+          <tr>
+            <td>005</td>
+            <td>Gel Excitante Vibra Power</td>
+            <td>52</td>
+            <td>R$ 59,99</td>
+            <td id="purple"><a href="exemploadmedit.html"><img src="notas.png" id="edit"></a></td>
+          </tr>
+          <tr>
+            <td>006</td>
+            <td>Lubrificante com Sabor</td>
+            <td>55</td>
+            <td>R$ 19,99</td>
+            <td id="purple"><a href="exemploadmedit.html"><img src="notas.png" id="edit"></a></td>
+          </tr>
+        </table>
+        </div>
+      </div>
+
+    </div>
+    
+    <footer id="contato">
+      <div id="footer">
+        <div>
+          <img src="ping.png" id="about" />
+          <p>Avenida Aaaa, 111, 11111-11</p>
+        </div>
+        <a href="https://api.whatsapp.com" target="_blank"
+          ><div>
+            <img src="telefone.png" id="about" />
+            <p>(99) 99999-9999</p>
+          </div></a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

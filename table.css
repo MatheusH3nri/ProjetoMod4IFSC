@@ -1,0 +1,19 @@
+#edit{
+    margin-top: 0.25em;
+    width: 1.75em;
+    margin-bottom: 0.15em;
+  }
+  
+  #purple:hover{
+    cursor: pointer;
+    background-color: rgb(103, 79, 160);
+  }
+  
+  #purple{
+    background-color: #FFC0CB;
+  }
+
+  table, th, td {
+  border: 2px solid #EF9AC8;
+}
+  

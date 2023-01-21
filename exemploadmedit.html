@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rosa do Deserto</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="rosa.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="produtos.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="snackbar.css" />
+    <link rel="stylesheet" href="exemploadmedit.css" />
+  </head>
+  <body>
+
+    <header class="flex-container">
+      <nav>
+        <a href="produtosadmin.html" class="link">Produtos</a>
+        <div class="dropdown">
+          <a href="colaboradores.html"
+            ><button class="dropbtn">Colaboradores</button></a
+          >
+          <div class="dropdown-content">
+            <a href="cadastro.html">Cadastrar</a>
+            <a href="colaboradores.html">Vizualizar</a>
+          </div>
+        </div>
+        
+  
+        <a href="estoque.html" class="link">Estoque</a>
+      </nav>
+      <nav>
+        <div class="dropdown">
+          <a href="adm.html"
+            ><button class="dropbtn"><img src="neyney.png" id="logo2"
+        /></button></a
+          >
+          <div class="dropdown-content">
+            <a href="login.html">Sair</a>
+          </div>
+        </div>
+        <a href="indexadm.html"
+          ><img src="rosa.png" id="logo"
+        /></a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <div id="column">
+          <img src="noimage.png" id="photo" />
+          <input type="text" id="image" placeholder="https://www.aaa.com"></input>
+        </div>
+          <div class="text">
+            <input type="name" id="name" placeholder="Nome"></input>
+            <div id="row">
+              <p>cód produto</p>
+              <input type="number" id="id" placeholder="1"></input>
+              <p id="qtd">Quantidade</p>
+              <input type="number" id="id" placeholder="1"></input>
+            </div>
+            <textarea id="desc" placeholder=" Descrição do Produto"></textarea>
+          </div>
+        </div>
+        <div class="info">
+          <h4>R$</h4>
+          <input type="number" id="value" placeholder="100,00"></input>
+          <button id="log" onclick="myFunction()">Salvar</button>
+          <button id="log" class="second" onclick="myFunction2()">Excluir</button>
+        </div>
+      </div>
+      <div class="cardb">
+        <div class="content">
+          <div class="text2">
+            <h1>Detalhes do Produto</h1>
+            <br>
+            <textarea type="text" placeholder=" Detalhes do Produto"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="snackbar">Processo Concluido com Sucesso</div>
+    <div id="snackbar2">Produto Deletado</div>
+    <footer id="contato">
+      <div id="footer">
+        <div>
+          <img src="ping.png" id="about" />
+          <p>Avenida Aaaa, 111, 11111-11</p>
+        </div>
+        <a href="https://api.whatsapp.com" target="_blank"
+          ><div>
+            <img src="telefone.png" id="about" />
+            <p>(99) 99999-9999</p>
+          </div></a
+        >
+      </div>
+    </footer>
+    <script src="snackbar.js"></script>
+  </body>
+</html>

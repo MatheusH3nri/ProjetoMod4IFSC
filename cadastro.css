@@ -1,0 +1,169 @@
+button {
+  margin-top: 2.5em;
+  color: var(--color-text);
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0.3em 0.6em 0.3em;
+  background-color: #EF9AC8;
+  color: var(--color-background);
+  border-radius: 0.3em;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  background-color: #5f41a6;
+}
+
+button:focus {
+  outline: none;
+}
+
+body {
+  color: var(--color-text);
+}
+
+#enter {
+  width: 5em;
+  margin-top: 0.5em;
+
+  margin-bottom: 0.5em;
+}
+
+label {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+input {
+  width: 12em;
+  padding: 0.5em;
+  background-color: var(--color-background);
+  border-radius: 0.3em;
+  box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  font-family: "Roboto Slab", serif;
+  border: 1px solid #c1c1c1;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+input:hover {
+  outline: none;
+  border: 1px solid var(--color-secondary);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid var(--color-secondary);
+}
+
+#adress {
+  padding-bottom: 0.5em;
+}
+
+.button {
+  color: var(--color-secondary);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.button:hover {
+  color: #5f41a6;
+  background-color: none;
+}
+
+h5 {
+  margin-top: 0.7em;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#registre {
+  margin-top: 0.3em;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  padding: 15em 0 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.carda {
+  border: 1px solid var(--color-card-border);
+  padding: 2em;
+  box-shadow: -0.1em 0 0.5em 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.75em 0 0 0.75em;
+  max-width: 18em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  height: 25em;
+}
+
+.cardb {
+  background-color: #f9f9f9;
+  padding: 2em;
+  box-shadow: 0.1em 0 0.5em 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0 0.75em 0.75em 0;
+  max-width: 18em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  height: 25em;
+}
+
+h1 {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#same {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1366px) {
+  .container {
+    padding: 5em 0 0 0;
+  }
+}
+
+@media (max-width: 2560px) and (min-width: 1920px) {
+  .container {
+    padding: 11em 0 0 0;
+  }
+}
+
+h2{
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.dropbtn2:hover {
+  background-color: var(--color-header);
+}
+
+.dropbtn:hover {
+  background-color: var(--color-header);
+}
+
+button:hover {
+  cursor: pointer;
+}

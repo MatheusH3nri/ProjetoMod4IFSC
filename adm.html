@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rosa do Deserto</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="rosa.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="snackbar.css" />
+    <link rel="stylesheet" href="permasnackbar.css" />
+    <link rel="stylesheet" href="userpage.css" />
+  </head>
+  <body>
+     <header class="flex-container">
+      <nav>
+        <a href="produtosadmin.html" class="link">Produtos</a>
+        <div class="dropdown">
+          <a href="colaboradores.html"
+            ><button class="dropbtn">Colaboradores</button></a
+          >
+          <div class="dropdown-content">
+            <a href="cadastro.html">Cadastrar</a>
+            <a href="colaboradores.html">Vizualizar</a>
+          </div>
+        </div>
+        
+  
+        <a href="estoque.html" class="link">Estoque</a>
+      </nav>
+      <nav>
+        <div class="dropdown">
+          <a href="adm.html"
+            ><button class="dropbtn"><img src="neyney.png" id="logo2"
+        /></button></a
+          >
+          <div class="dropdown-content">
+            <a href="login.html">Sair</a>
+          </div>
+        </div>
+        <a href="indexadm.html"
+          ><img src="rosa.png" id="logo"
+        /></a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <img src="neyney.png" id="photo" />
+          <div class="text">
+            <h1>Administrador</h1>
+            <div id="row2">
+            <p>Cadastro - 20/05/2022 </p>
+            </div>
+            <h2 id="text2">Login: admin@gmail.com<br/>
+              Nome Completo: Gabriel Barbosa<br/>
+              Endereço: Avenida Aaaa, 111, 11111-11<br/>
+              CPF: 111.111.111-11<br/>
+              Telefone: (99) 99999-9999<br/>
+              <br/>
+              Obrigado por estar sempre conosco. Rosa do Deserto.<br/>
+            </h2>
+          </div>
+        </div>
+        <div class="info">
+          <button id="log" onclick="Show2()">Editar</button>
+        </div>
+      </div>
+      <div class="cardb">
+        <h1>Historico de Compras</h1>
+        <br/>
+        <div id="myDIV">
+          <table>
+            <tr>
+              <th>Poduto</th>
+              <th>cód produto</th>
+              <th>Data</th>
+              <th>Valor</th>
+              <th>Status</th>
+            </tr>
+            <tr>
+              <td>Golfinho Ponto G</td>
+              <td>0001</td>
+              <td>28/05/2022 10:00</td>
+              <td>R$ 99,99</td>
+              <td>Entregue</td>
+            </tr>
+            <tr>
+              <td>Vibrador silk lady</td>
+              <td>0002</td>
+              <td>28/05/2022 09:00</td>
+              <td>R$ 109,99</td>
+              <td>A caminho</td>
+            </tr>
+          </table>
+          </div>
+      </div>
+    </div>
+    <footer id="contato">
+      <div id="footer">
+        <div>
+          <img src="ping.png" id="about" />
+          <p>Avenida Aaaa, 111, 11111-11</p>
+        </div>
+        <a href="https://api.whatsapp.com" target="_blank"
+          ><div>
+            <img src="telefone.png" id="about" />
+            <p>(99) 99999-9999</p>
+          </div></a
+        >
+      </div>
+    </footer>
+    <script src="../../public/scripts/snackbar.js"></script>
+    <script src="../../public/scripts/permasnackbar.js"></script>
+    <script src="../../public/scripts/color.js"></script>
+  </body>
+</html>

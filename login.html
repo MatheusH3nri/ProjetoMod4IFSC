@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rosa Do Deserto</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="rosa.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="snackbar.css" />
+
+  </head>
+  <body>
+    <header class="flex-container">
+      <nav>
+        <a></a>
+      </nav>
+      <a href="index.html"
+        ><img src="rosa.png" id="logo"
+      /></a>
+    </header>
+    <div class="container">
+      <div class="card">
+        <image src="login.png" id="enter" />
+        <label>Informe seu E-mail</label>
+        <input type="email" placeholder="exemplo@abc.com" id="email" />
+        <label>Insira a sua Senha</label>
+        <input type="password" placeholder="Senha" />
+        <div id="registre">
+          <h5>Não possui conta?</h5>
+          <a href="signup.html" class="button">Resgistre-se</a>
+        </div>
+
+        <button type="button" onclick="Verify()">Entrar</button>
+      </div>
+    </div>
+    <div id="snackbar">Não Deixe o Campo de Email Vazio</div>
+    <script src="login.js"></script>
+    <script src="snackbar.js"></script>
+  </body>
+</html>

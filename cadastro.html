@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rosa do Deserto</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="../../public/images/logo.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="stylesheet" href="snackbar.css" />
+  </head>
+  <body>
+    <header class="flex-container">
+      <nav>
+        <a href="produtosadmin.html" class="link">Produtos</a>
+        <div class="dropdown">
+          <a href="colaboradores.html"
+            ><button class="dropbtn">Colaboradores</button></a
+          >
+          <div class="dropdown-content">
+            <a href="cadastro.html">Cadastrar</a>
+            <a href="colaboradores.html">Vizualizar</a>
+          </div>
+        </div>
+        
+  
+        <a href="estoque.html" class="link">Estoque</a>
+      </nav>
+      <nav>
+        <div class="dropdown">
+          <a href="adm.html"
+            ><button class="dropbtn"><img src="neyney.png" id="logo2"
+        /></button></a
+          >
+          <div class="dropdown-content">
+            <a href="login.html">Sair</a>
+          </div>
+        </div>
+        <a href="indexadm.html"
+          ><img src="rosa.png" id="logo"
+        /></a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div id="same">
+        <div class="carda">
+          <h2>Cadastrar Colaborador</h2>
+          <image src="login2.png" id="enter" />
+          <label>Informe Nome</label>
+          <input type="text" placeholder="fulano de tal" />
+          <label>Informe o E-mail</label>
+          <input type="email" placeholder="exemplo@abc.com" />
+          <label>Insira a Senha</label>
+          <input type="password" placeholder="Senha" />
+        </div>
+        <div class="cardb">
+          <label>Nome de Login</label>
+          <input type="text" placeholder="" id="user" />
+          <label>Informe o CPF</label>
+          <input
+            type="number"
+            placeholder="111.111.111-11"
+            id="cpf"
+            inputmode="number"
+          />
+          <label>Informe o Telefone</label>
+          <input
+            type="number"
+            placeholder="(11)11111-1111"
+            id="fone"
+            inputmode="number"
+          />
+          <label>Informe o Endereço</label>
+          <input
+            placeholder="Avenue A, 1, xxxxxx-xx"
+            id="adress"
+            inputmode="number"
+          />
+          <div id="row">
+          <button onclick="myFunction()">Registrar</button>
+          <button id="log" class="second" onclick="myFunction2()">Excluir</button>
+        </div>
+          <div id="snackbar">Conta Criada com Sucesso</div>
+          <div id="snackbar2">Deletado</div>
+        </div>
+      </div>
+    </div>
+    <script src="../../public/scripts/snackbar.js"></script>
+  </body>
+</html>

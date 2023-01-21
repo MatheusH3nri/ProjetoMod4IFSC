@@ -1,0 +1,93 @@
+button {
+  margin-top: 0.5em;
+  color: var(--color-text);
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0.3em 0.6em 0.3em;
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+  border-radius: 0.3em;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  background-color: #5f41a6;
+}
+
+button:focus {
+  outline: none;
+}
+
+body {
+  color: var(--color-text);
+}
+
+#enter {
+  width: 6em;
+  margin-bottom: 1.5em;
+}
+
+label {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+input {
+  width: 12em;
+  padding: 0.5em;
+  background-color: var(--color-background);
+  border-radius: 0.3em;
+  box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  font-family: "Roboto Slab", serif;
+  border: 1px solid #f1f1f1;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+input:hover {
+  outline: none;
+  border: 1px solid var(--color-secondary);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid var(--color-secondary);
+}
+
+.button {
+  color: var(--color-secondary);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.button:hover {
+  color: #5f41a6;
+  background-color: none;
+}
+
+h5 {
+  margin-top: 0.7em;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#registre {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1366px) {
+  .container {
+    padding: 5em 0 0 0;
+  }
+}
+
+@media (max-width: 2560px) and (min-width: 1920px) {
+  .container {
+    padding: 11em 0 0 0;
+  }
+}
+

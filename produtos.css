@@ -1,0 +1,132 @@
+#buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#edit{
+    margin: 0.7em 0 0.7em 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0.3em 0.6em 0.3em;
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+  border-radius: 0.3em;
+  transition: transform 0.2s;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+ }
+
+ #edit:hover {
+    background-color: #5f41a6;
+  }
+  
+  #edit:focus {
+    outline: none;
+  }
+
+  #edit-icon{
+      width: 3em;
+  }
+
+  #edit{
+    width: 2.5em;
+  }
+  
+  #purple:hover{
+    cursor: pointer;
+    background-color: rgb(103, 79, 160);
+  }
+  
+  #purple{
+    background-color: rgb(110, 84, 170);
+  }
+  
+  #add{
+    background-color:var(--color-secondary);
+    display : flex;
+    border-radius: 0.3em;
+    width: 11em;
+    margin-left: 2em;
+  }
+  
+  #plus{
+    width: 1.4em;
+    padding: 0.2em;
+    background-color: #14141433;
+    border-radius: 0.3em;
+  }
+  
+  #add:hover{
+    background-color: #5f41a6;
+    cursor: pointer;
+  }
+
+  #search-button {
+    border: 1px solid var(--color-text);
+    background-color: var(--color-background);
+    border-radius: 0 0.3em 0.3em 0;
+    padding: 0.21em;
+    margin: 0em;
+  }
+  
+  #search-ico {
+    width: 1.1em;
+  }
+  
+  .search {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    font-size: 30px;
+  }
+
+  #product{
+    color: var(--color-background);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0.1em;
+    margin-left: 0.5em;
+  }
+
+
+  input {
+    width: 12em;
+    padding: 0.3em;
+    background-color: var(--color-background);
+    border-radius: 0.3em 0 0 0.3em;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    font-family: "Roboto Slab", serif;
+    font-size: 12px;
+    border: 1px solid #f1f1f1;
+    font-weight: 300;
+    border: 1px solid var(--color-text);
+  }
+  
+  input:hover {
+    outline: none;
+    border: 1px solid var(--color-secondary);
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1px solid var(--color-secondary);
+  }
+
+  header {
+    margin-bottom: 1.5em;
+  }
+
+  h1 {
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 2em;
+    margin-top: 0;
+  }

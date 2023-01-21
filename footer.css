@@ -1,0 +1,46 @@
+footer {
+  color: white;
+  background-color: #5f41a6;
+  padding: 0.5em 12em 0.2em;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+#info {
+  width: 2em;
+}
+
+#about {
+  width: 1.6em;
+  margin: 0em 0.5em 0em 0em;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+}
+
+a{
+  color: var(--color-background);
+  text-decoration: none;
+  background-color: none;
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

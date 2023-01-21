@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rosa do Deserto</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="../../public/images/logo.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="relatorio.css" />
+    <link rel="stylesheet" href="table.css" />
+  </head>
+  <body>
+    <header class="flex-container">
+      <nav>
+        <a href="produtosadmin.html" class="link">Produtos</a>
+        <div class="dropdown">
+          <a href="colaboradores.html"
+            ><button class="dropbtn">Colaboradores</button></a
+          >
+          <div class="dropdown-content">
+            <a href="cadastro.html">Cadastrar</a>
+            <a href="colaboradores.html">Vizualizar</a>
+          </div>
+        </div>
+        
+  
+        <a href="estoque.html" class="link">Estoque</a>
+      </nav>
+      <nav>
+        <div class="dropdown">
+          <a href="adm.html"
+            ><button class="dropbtn"><img src="neyney.png" id="logo2"
+        /></button></a
+          >
+          <div class="dropdown-content">
+            <a href="login.html">Sair</a>
+          </div>
+        </div>
+        <a href="indexadm.html"
+          ><img src="rosa.png" id="logo"
+        /></a>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="search">
+        <h1>Colaboradores Cadastrados</h1>
+        <input type="number" placeholder="Busca" value="1"/>
+        <select id="periodo">
+          <option>Semana(s)</option>
+          <option>Mês(es)</option>
+          <option>Ano(s)</option>
+        </select>
+        <button id="search-button" onclick="myFunction()">
+          <img src="lupa.png" width="10" />
+        </button>
+        <select>
+          <option>Mais Recentes</option>
+          <option>Mais Antigos</option>
+        </select>
+      </div>
+
+      <div class="card">
+        <div id="myDIV">
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Contrato</th>
+            <th>Cargo</th>
+            <th>Data</th>
+            <th>Salario</th>
+            <th id="editar">Editar</th>
+          </tr>
+          <tr>
+            <td>Leo</td>
+            <td>0001</td>
+            <td>Gerente</td>
+            <td>28/05/2021 09:58</td>
+            <td>R$ 650,00 + R$ 1,99</td>
+            <td id="purple"><a href="cadastro.html"><img src="notas.png" id="edit"></a></td>
+          </tr>
+          <tr>
+            <td>José</td>
+            <td>0002</td>
+            <td>Entregador</td>
+            <td>28/05/2021 09:58</td>
+            <td>R$ 50,00</td>
+            <td id="purple"><a href="cadastro.html"><img src="notas.png" id="edit"></a></td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>0003</td>
+            <td>Montador</td>
+            <td>28/05/2021 09:58</td>
+            <td>R$ 650,00</td>
+            <td id="purple"><a href="cadastro.html"><img src="notas.png" id="edit"></a></td>
+          </tr>
+          <tr>
+            <td>Guilherme CasaGG</td>
+            <td>0004</td>
+            <td>Atendente</td>
+            <td>28/05/2021 09:58</td>
+            <td>R$ 650,00</td>
+            <td id="purple"><a href="cadastro.html"><img src="notas.png" id="edit"></a></td>
+          </tr>
+        </table>
+        </div>
+      </div>
+
+    </div>
+    
+    <footer id="contato">
+      <div id="footer">
+        <div>
+          <img src="ping.png" id="about" />
+          <p>Avenida Aaaa, 111, 11111-11</p>
+        </div>
+        <a href="https://api.whatsapp.com" target="_blank"
+          ><div>
+            <img src="telefone.png" id="about" />
+            <p>(99) 99999-9999</p>
+          </div></a
+        >
+      </div>
+    </footer>
+    <script src="../../public/scripts/relatorio.js"></script>
+  </body>
+</html>

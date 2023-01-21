@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rosa do Deserto</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="rosa.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="snackbar.css" />
+    <link rel="stylesheet" href="permasnackbar.css" />
+    <link rel="stylesheet" href="userpage.css" />
+  </head>
+  <body>
+   <header class="flex-container">
+      <nav>
+        <a href="produtoscliente.html" class="link">Produtos</a>
+        <a href="#contato" class="link">Contato</a>
+      </nav>
+      <nav>
+        <a href="cliente.html"
+          ><img src="poze.png" id="logo"
+        /></a>
+        <a href="indexCliente.html"
+          ><img src="rosa.png" id="logo"
+        /></a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <img src="poze.png" id="photo" />
+          <div class="text">
+            <h1>Usuário</h1>
+            <div id="row2">
+            <p>Cadastro - 25/05/2021 00:00</p>
+            </div>
+            <h2 id="text2">Login: poze@gmail.com<br/>
+              Nome Completo: Poze do Rodo<br/>
+              Endereço: Avenida Aaaa, 111, 11111-11<br/>
+              CPF: 111.111.111-11<br/>
+              Telefone: (99) 99999-9999<br/>
+              <br/>
+              Obrigado por estar sempre conosco. Rosa do deserto.<br/>
+            </h2>
+          </div>
+        </div>
+        <div class="info">
+          <button id="log" onclick="Show2()">Editar</button>
+        </div>
+      </div>
+      <div class="cardb">
+        <h1>Historico de Compras</h1>
+        <br/>
+        <div id="myDIV">
+          <table>
+            <tr>
+              <th>Produto</th>
+              <th>cód produto</th>
+              <th>Data</th>
+              <th>Valor</th>
+              <th>Status</th>
+            </tr>
+            <tr>
+              <td>Gel Excitante Vibra Power</td>
+              <td>0001</td>
+              <td>28/05/2021 09:58</td>
+              <td>R$ 19,99</td>
+              <td>Entregue</td>
+            </tr>
+          </table>
+          </div>
+      </div>
+    </div>
+    <footer id="contato">
+      <div id="footer">
+        <div>
+          <img src="ping.png" id="about" />
+          <p>Avenida Aaaa, 111, 11111-11</p>
+        </div>
+        <a href="https://api.whatsapp.com" target="_blank"
+          ><div>
+            <img src="telefone.png" id="about" />
+            <p>(99) 99999-9999</p>
+          </div></a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
